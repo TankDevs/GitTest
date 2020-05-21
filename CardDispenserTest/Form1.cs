@@ -908,6 +908,13 @@ namespace CardDispenserTest
             int.TryParse(comboBoxCardBoxNum.Text, out cardBoxNum);
             int ret = CardDispenser_SetCardBoxNum(cardBoxNum, m_pszRcCode);
             Log(ret);
-        }     
+        }   
+        private void testFunction(object sender, EventArgs e)
+        {
+            int cardBoxNum = -1;
+            int.TryParse(comboBoxCardBoxNum.Text, out cardBoxNum);
+            int ret = CardDispenser_SetCardBoxNum(cardBoxNum, m_pszRcCode);
+            Log(ret);
+        } 		
     }
 }
