@@ -19,5 +19,10 @@ namespace CardDispenserTest
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+		//我要增加一个函数
+		int function(x,y)
+		{
+			return y+x;
+		}
     }
 }
