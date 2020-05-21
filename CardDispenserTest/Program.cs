@@ -15,9 +15,20 @@ namespace CardDispenserTest
         static void Main()
         {
 			//添加一个注释
+			//我是来制造冲突的
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+		//我要增加一个函数
+		int function(int x,int y)
+		{
+			return y+x;
+		}
+		//临时增加要给函数，测试完之后要删除
+		int tempFunc( string x)
+		{
+			return "hahhah ";
+		}
     }
 }
