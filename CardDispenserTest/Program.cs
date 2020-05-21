@@ -14,6 +14,7 @@ namespace CardDispenserTest
         [STAThread]
         static void Main()
         {
+			//我是来制造冲突的
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
