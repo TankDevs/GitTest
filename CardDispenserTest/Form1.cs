@@ -88,14 +88,10 @@ namespace CardDispenserTest
         /// <returns>System.Int32</returns>
         [DllImport("CardDispenser_Driver.dll", EntryPoint = "CardDispenser_Dispense")]
         private static extern int CardDispenser_Dispense(int dwTimeOut, StringBuilder ReCode);
-        /// <summary>
-        /// 吞卡
-        /// </summary>
-        /// <param name="dwTimeOut">超时时间</param>
-        /// <param name="ReCode">返回码</param>
-        /// <returns>System.Int32</returns>
-        [DllImport("CardDispenser_Driver.dll", EntryPoint = "CardDispenser_Capture")]
-        private static extern int CardDispenser_Capture(int dwTimeOut, StringBuilder pszRcCode);
+        
+		//删除了吞卡函数，哈哈哈
+		
+		
         /// <summary>
         /// 送卡至
         /// </summary>
