@@ -8,9 +8,7 @@ namespace CardDispenserTest
 {
     static class Program
     {
-        /// <summary>
-        /// 应用程序的主入口点。
-        /// </summary>
+       //try detached head
         [STAThread]
         static void Main()
         {
