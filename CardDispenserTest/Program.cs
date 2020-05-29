@@ -9,6 +9,7 @@ namespace CardDispenserTest
     static class Program
     {
        //try detached head
+	   //try 2 分离头
         [STAThread]
         static void Main()
         {
