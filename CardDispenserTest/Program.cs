@@ -18,6 +18,7 @@ namespace CardDispenserTest
 			//我是来制造冲突的
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+			//fetch and merge  test
             Application.Run(new Form1());
         }
 		//我要增加一个函数
