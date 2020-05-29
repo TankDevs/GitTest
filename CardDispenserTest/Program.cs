@@ -10,6 +10,7 @@ namespace CardDispenserTest
     {
        //try detached head
 	   //try 2 分离头
+	   //try3 fenlitou
         [STAThread]
         static void Main()
         {
