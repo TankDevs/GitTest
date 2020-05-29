@@ -20,6 +20,7 @@ namespace CardDispenserTest
             Application.SetCompatibleTextRenderingDefault(false);
 			//fetch and merge  test
 			//fetch and merge  test 2222
+			//fetch and merge  test 333
             Application.Run(new Form1());
         }
 		//我要增加一个函数
