@@ -29,6 +29,7 @@ namespace CardDispenserTest
 		//我要增加一个函数
 		int function(int x,int y)
 		{
+			//这个函数是加法函数
 			//rebase 11
 			return y+x;
 		}
