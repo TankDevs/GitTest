@@ -31,6 +31,7 @@ namespace CardDispenserTest
 		{
 			//这个函数是加法函数
 			//测试rebase 1
+			//rebase 11
 			return y+x;
 		}
 		//临时增加要给函数，测试完之后要删除
