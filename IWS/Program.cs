@@ -30,6 +30,7 @@ namespace CardDispenserTest
 		int function(int x,int y)
 		{
 			//这个函数是加法函数
+			//测试rebase 1
 			//rebase 11
 			return y+x;
 		}
