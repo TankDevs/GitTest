@@ -23,6 +23,7 @@ namespace CardDispenserTest
 			//fetch and merge  test 333
 			//fetch and merge  test 444444
 			//fetch 5555
+			//test fast forward
             Application.Run(new Form1());
         }
 		//我要增加一个函数
